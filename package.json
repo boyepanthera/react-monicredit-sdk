@@ -1,0 +1,45 @@
+{
+  "name": "@boyepanthera/react-monicredit-sdk",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/boyepanthera"
+  },
+  "version": "0.0.1",
+  "description": "Reactjs app checkout module for Monicredit microfinance bank",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyepanthera/react-monicredit-sdk.git"
+  },
+  "keywords": [
+    "payment",
+    "checkout",
+    "monicredit",
+    "autocredit",
+    "megastack"
+  ],
+  "author": "Olanrewaju A. Olaboye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyepanthera/react-monicredit-sdk/issues"
+  },
+  "homepage": "https://github.com/boyepanthera/react-monicredit-sdk#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.48",
+    "react": "^18.2.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.3.3"
+  }
+}
